@@ -4,4 +4,4 @@
 " License:    MIT Copyright (c) 2018 rhysd
 " For bugs, patches and license go to https://github.com/rhysd/vim-github-actions
 
-autocmd BufNewFile,BufReadPost .github/*.workflow setlocal filetype=ghaworkflow
+autocmd BufNewFile,BufReadPost .github/workflows/*.yml setlocal filetype=ghaworkflow
